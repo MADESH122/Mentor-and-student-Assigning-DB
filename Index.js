@@ -184,6 +184,4 @@ app.get('/mentors/:mentorId/students', (req, res) => {
 });
 
 
-
-
 app.listen(port, () => console.log('server connected sucessful'))
