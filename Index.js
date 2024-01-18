@@ -161,7 +161,7 @@ app.post('/students/:studentId/assign-mentor', (req, res) => {
 })
 
 
-////----------Show All Students for a Particular Mentor API//----------//
+//------------Show All Students for a Particular Mentor API-------------//
 app.get('/mentors/:mentorId/students', (req, res) => {
 
     try {
